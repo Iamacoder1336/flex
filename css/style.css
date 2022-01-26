@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Poppins:wght@500;600&family=Roboto&display=swap');
+
+:root {
+  --main-bg-color: #bd6418;
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: url("/5.jpg")no-repeat center fixed;
+  background-size: cover; */
+  background: linear-gradient(rgba(255, 0, 0, 0.397), rgba(76, 14, 192, 0.733), rgba(3, 168, 119, 0.582), rgba(137, 20, 233, 0.644));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(236, 229, 229, 0.657);
+  /* padding: 60px 30px 60px 30px; */
+  border: none;
+  border-radius: 10px;
+  padding: 0 0 125px 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.container .content {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgba(58, 31, 109, 0.979);
+  padding: 40px;
+  width: 299px
+}
+
+.container .content .image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 22px;
+  transition: all 1s ease-in-out;
+}
+
+.container .content h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container .input {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container .input input{
+ position: relative; 
+ top: 32px;
+ font-size: 13px;
+ padding: 7px 0px 7px 5px; 
+ /* border-radius: 5px; */
+ border: none;
+ color: #bd6418;
+ background-color: rgb(255, 255, 255);
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.login .btn {
+  border: none;
+  /* border-radius: 5px; */
+  padding: 10px 108px 10px 108px;
+  position: relative;
+  top: 83px;
+  background: rgb(47, 7, 93);
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.login .btn:hover {
+  background: rgb(153, 0, 255);
+  color: rgb(255, 255, 255);
+}
+img:hover{
+  /* transform: rotate(45deg); */
+  transform: scale(2);
+  /* transform: translateX(123px); */
+  /* transform: translateY(123px); */
+  }
